@@ -1,0 +1,221 @@
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .header {
+    position: static;
+    background: linear-gradient(90deg, #479cc1 0%, #69bad8 100%);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .header {
+    position: static;
+    background: linear-gradient(90deg, #479cc1 0%, #69bad8 100%);
+  }
+
+  .footer-bottom-wrapper {
+    gap: 1rem;
+  }
+
+  .footer-bottom-wrapper > div {
+    width: calc(50% - 1rem);
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .header {
+    position: static;
+    background: linear-gradient(90deg, #479cc1 0%, #69bad8 100%);
+  }
+
+  .header__top-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+  }
+
+  .header__top-wrapper > div {
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+  }
+
+  .header__info {
+    padding: 1rem 0;
+  }
+
+  .header__socials {
+    padding: 1rem 0;
+  }
+
+  .time-info-wrapper {
+    flex-direction: column;
+  }
+
+  .time-info-wrapper > div {
+    width: 100%;
+  }
+
+  .departments__cards-primary > div {
+    width: calc(50% - 1rem);
+  }
+
+  .departments__cards-secondary > div {
+    width: calc(33% - 0.66rem);
+  }
+
+  .specialists__card {
+    width: 50%;
+  }
+
+  .clients__images {
+    width: 50%;
+  }
+
+  .footer-bottom-wrapper {
+    gap: 1rem;
+  }
+
+  .footer-bottom-wrapper > div {
+    width: calc(50% - 1rem);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding: 1rem 0.5rem;
+  }
+
+  .header {
+    position: static;
+    background: linear-gradient(90deg, #479cc1 0%, #69bad8 100%);
+  }
+
+
+  .header__top-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .header__top-wrapper > div {
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+  }
+
+  .header__info {
+    padding: 1rem 0;
+  }
+
+  .header__socials {
+    padding: 1rem 0;
+  }
+
+  .hero__heading {
+    font-size: 4.5rem;
+  }
+
+  .hero__text {
+    font-size: 2.5rem;
+  }
+
+  .time-info-wrapper {
+    flex-direction: column;
+  }
+
+  .time-info-wrapper > div {
+    width: 100%;
+  }
+
+  .services {
+    padding: 25px 0;
+  }
+
+  .services__cards {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .services__card {
+    text-align: center;
+    width: 75%;
+  }
+
+  .intro-wrapper {
+    max-width: 75%;
+  }
+
+  .departments {
+    padding: 25px 0;
+  }
+
+  .departments__cards-primary > div {
+    width: 100%;
+  }
+
+  .departments__cards-secondary > div {
+    width: calc(50% - 1rem);
+  }
+
+  .specialists {
+    padding: 25px 0;
+  }
+
+  .specialists__card {
+    width: 100%;
+  }
+
+  .design-block {
+    display: none;
+  }
+
+  .contact-wrapper {
+    flex-direction: column;
+  }
+
+  .contact-wrapper > div {
+    width: 100%;
+    padding: 50px;
+  }
+
+  .contact__form-wrap {
+    background-color: #56b0d2;
+  }
+
+  .clients {
+    padding: 25px 0;
+  }
+
+  .clients__images {
+    width: 100%;
+  }
+
+  .footer-bottom-wrapper {
+    gap: 1rem;
+  }
+
+  .footer-bottom-wrapper > div {
+    width: 100%;
+  }
+
+  .copyright__links {
+    max-width: 40%;
+  }
+}
