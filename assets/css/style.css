@@ -60,6 +60,11 @@ a {
   z-index: 2;
 }
 
+.header__show {
+  position: relative !important;
+  background: linear-gradient(90deg, #479cc1 0%, #69bad8 100%);
+}
+
 .header-wrap {
   position: relative;
   min-height: 1px;
@@ -168,6 +173,27 @@ a {
   color: #69bad8;
 }
 
+.header__hamburger {
+  padding: 4px;
+  width: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hamburger__lines {
+  width: 100%;
+  background: white;
+  height: 5px;
+  border-radius: 5px;
+}
+
+.header__show {
+  display: block;
+}
+
 /* Hero styling */
 
 .hero {
@@ -181,9 +207,10 @@ a {
 }
 
 .hero__content {
+  padding: 100px 0;
   padding-left: 1rem;
-  width: 100%;
   height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
