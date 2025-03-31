@@ -4,16 +4,16 @@
   }
 
   /* Show full header */
-  .header__top,
+  /* .header__top,
   .header__cta,
   .header__nav-bar {
     display: block !important;
-  }
+  } */
   
   /* Hide Hamburger menu */
-  .header__hamburger {
+  /* .header__hamburger {
     display: none;
-  }
+  } */
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -22,16 +22,16 @@
   }
 
   /* Show full header. */
-  .header__top,
+  /* .header__top,
   .header__cta,
   .header__nav-bar {
     display: block !important;
-  }
+  } */
 
   /* Hide hamburger menu. */
-  .header__hamburger {
+  /* .header__hamburger {
     display: none;
-  }
+  } */
 
   .header__logo {
     width: 100%;
@@ -50,23 +50,23 @@
   }
 
   /* Show full header */
-  .header__top,
+  /* .header__top,
   .header__cta,
   .header__nav-bar {
     display: block !important;
-  }
+  } */
 
   /* Hide hamburger menu */
-  .header__hamburger {
+  /* .header__hamburger {
     display: none;
-  }
+  } */
 
   /* Footer styling */
-  .footer-bottom-wrapper {
+  .footer-secondary-wrapper {
     gap: 1rem;
   }
 
-  .footer-bottom-wrapper > div {
+  .footer-secondary-wrapper > div {
     width: calc(50% - 1rem);
   }
 }
@@ -77,13 +77,12 @@
   }
 
   /* Header styling */
-  .header__top-wrapper {
-    display: flex;
+  .header__primary-wrapper {
     flex-wrap: wrap;
     border: none;
   }
 
-  .header__nav-bar {
+  /* .header__nav-bar {
     display: none;
   }
 
@@ -93,9 +92,9 @@
 
   .header__cta {
     display: none;
-  }
+  } */
 
-  .header__top-wrapper > div {
+  .header__primary-wrapper > div {
     padding: 0.5rem;
     width: 100%;
     border: none;
@@ -145,11 +144,11 @@
   }
 
   /* Footer styles */
-  .footer-bottom-wrapper {
+  .footer-secondary-wrapper {
     gap: 1rem;
   }
 
-  .footer-bottom-wrapper > div {
+  .footer-secondary-wrapper > div {
     width: calc(50% - 1rem);
   }
 }
@@ -161,8 +160,12 @@
     padding: 1rem 0.5rem;
   }
 
+  .go-up {
+    bottom: 120px;
+  }
+
   /* Header styles */
-  .header__nav-bar {
+  /* .header__nav-bar {
     display: none;
   }
 
@@ -172,7 +175,7 @@
 
   .header__cta {
     display: none;
-  }
+  } */
 
   .header__top-wrapper {
     display: flex;
@@ -280,15 +283,19 @@
   }
 
   /* Footer styles */
-  .footer-bottom-wrapper {
+  .footer-secondary-wrapper {
     gap: 1rem;
   }
 
-  .footer-bottom-wrapper > div {
+  .footer-secondary-wrapper > div {
     width: 100%;
   }
 
+  .copyright-wrap {
+    gap: 1rem;
+  }
+
   .copyright__links {
-    max-width: 40%;
+    width: 100%;
   }
 }
